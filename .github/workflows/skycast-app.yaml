@@ -53,7 +53,7 @@ jobs:
 
       # 6. Desplegar a Azure App Service
       - name: Deploy to pages 
-        uses: peaceiris/actions-gh-page@v4
+        uses: peaceiris/actions-gh-pages@v4
         with: 
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: SkyCast/publish/wwwroot

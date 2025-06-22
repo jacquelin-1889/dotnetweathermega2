@@ -15,7 +15,7 @@ jobs:
       # 1. Descargar el código fuente
       - name: Descargar el código fuente
         # Usar la acción de checkout para descargar el código fuente del repositorio
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # 2. Configurar el entorno de .NET
       - name: Set up -NET

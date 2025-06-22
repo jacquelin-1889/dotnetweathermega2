@@ -10,8 +10,8 @@ env:
 
 permissions:
   contents: write
-  pages: write
   id-token: write
+  pages: write
   
 jobs:
   build:

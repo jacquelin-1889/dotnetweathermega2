@@ -15,7 +15,7 @@
   <!--Después de cada Build aplicara los comandos -->
   <!--Se toma la ruta relativa del app.css -->
   <!--Minify Para hacer el Css chiquito en una sola linea -->
-  <Target Name="Tailwind" BeforeTargets="Build">
+   <!--<Target Name="Tailwind" BeforeTargets="Build">
      <Exec Command="dotnet tailwindcss -i styles/input.css -o wwwroot\css\app.css --minify" />
-  </Target>
+  </Target> -->
 </Project>

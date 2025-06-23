@@ -48,7 +48,7 @@ jobs:
           dotnet restore
           # Inyectar la API key 
           echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > SkyCast/appsettings.Production.json
-          dotnet publish SkyCast/SkyCast.csproj -c Release -o ./publish -p:StaticWebAssetBase=dotmetweathermega
+          dotnet publish SkyCast/SkyCast.csproj -c Release -o publish -p:StaticWebAssetBase=dotmetweathermega
 
       # 5. Artifactos de compilación
       - uses : actions/upload-artifact@v4
